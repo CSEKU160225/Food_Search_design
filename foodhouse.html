@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>foodBlog</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="image/icon.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<div class="div1">
+		<div class="nav-bar">
+			<div class="nav-logo">
+				<img src="image/logo.jpg">
+
+				</div>
+				<div class="nav-links" id="link">
+					<i class="fa fa-close" onclick="close()"></i>
+					<ul>
+						<a href="#"><li>Home</li></a>
+						<a href="#"><li>Contact</li></a>
+						<a href="#"><li>About</li></a>
+					</ul>
+					<button type="button" class="btn">SIGN UP</button>
+			</div>
+			<i class="fa fa-bars" onclick="show()"></i>
+			
+		</div>
+		<div class="banner-title">
+			<h1>Come First.We are <span>waiting to serve</span> you..</h1>
+		</div>
+		<div class="vartical-bar">
+			<div class="search-icon">
+				<i class="fa fa-th-list"></i>
+				<i class="fa fa-search"></i>
+			</div>
+			<div class="social-icon">
+			    <i class="fa fa-facebook"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-twitter"></i>
+				
+				
+			</div>
+
+			
+		</div>
+		
+	</div>
+	<script type="text/javascript">
+		var s=document.getElementById('link');
+		function show() {
+			s.style.right="0";
+		}
+				function close() {
+			s.style.right="-100px";
+		}
+	</script>
+
+</body>
+
+</html>
